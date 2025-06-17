@@ -1,0 +1,37 @@
+div h3 {
+    text-decoration: none;
+}
+
+div {
+    width: 400px;
+    min-height: 90px;
+}
+
+section#sep {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+div:hover {
+    transition: 1s ease-in-out;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: brown;
+}
+
+div:hover hr {
+    transition: 1s ease-in-out;
+    color: black;
+    background-color: black;
+}
+
+article h1 {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}

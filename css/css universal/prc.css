@@ -1,0 +1,38 @@
+article h1 {
+    margin-left: 100px;
+    display: flex;
+    position: relative;
+}
+
+main section {
+    margin-left: 20px;
+}
+
+article img {
+    width: 200px;
+    height: auto;
+    filter: invert(100%);
+}
+
+hr {
+    width: auto;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 200px;
+    padding: 20px;
+    gap: 400px;
+}
+
+section h2 {
+    text-decoration: underline solid;
+}
+
+section p {
+    font-weight: 300;
+}

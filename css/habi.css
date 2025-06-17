@@ -1,0 +1,24 @@
+article h1 {
+    background: linear-gradient(to right, #74d659, #a81313, blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+section#msg {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+div b {
+    background: linear-gradient(to right, #bd7070, #22361e, blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}

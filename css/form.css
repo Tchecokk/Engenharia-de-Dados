@@ -1,0 +1,27 @@
+article h1 {
+    background: linear-gradient(to left, salmon, rgb(173, 100, 179), #add7de);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+section.b {
+    display: flex;
+    justify-content: space-between;
+}
+
+article.tet {
+    height: 220px;
+    width: 600px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: block;
+    color: black;
+    background-color: white;
+    border-radius: 9px;
+    border-style: solid;
+}
+
+h3 {
+    text-decoration: overline;
+}
